@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchitectureNetCore.CrossCutting", "ArchitectureNetCore.CrossCutting\ArchitectureNetCore.CrossCutting.csproj", "{F2A38B19-38C3-4F67-9365-3F610B253FAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchitectureNetCore.Data.EF", "ArchitectureNetCore.Data.EF\ArchitectureNetCore.Data.EF.csproj", "{D2D25A57-3D4A-4D29-A9BD-3F0BCA7C4DE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchitectureNetCore.Domain", "ArchitectureNetCore.Domain\ArchitectureNetCore.Domain.csproj", "{86F28212-0C97-41B8-B887-3989BD6EB742}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchitectureNetCore.Data.Dapper", "ArchitectureNetCore.Data.Dapper\ArchitectureNetCore.Data.Dapper.csproj", "{99D16D21-6B8B-4DEC-8024-C58FF8B8AED7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchitectureNetCore.Web", "ArchitectureNetCore.Web\ArchitectureNetCore.Web.csproj", "{A7504AA7-5DC7-4871-B4C2-99906A620AFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2A38B19-38C3-4F67-9365-3F610B253FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A38B19-38C3-4F67-9365-3F610B253FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A38B19-38C3-4F67-9365-3F610B253FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A38B19-38C3-4F67-9365-3F610B253FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D25A57-3D4A-4D29-A9BD-3F0BCA7C4DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D25A57-3D4A-4D29-A9BD-3F0BCA7C4DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D25A57-3D4A-4D29-A9BD-3F0BCA7C4DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D25A57-3D4A-4D29-A9BD-3F0BCA7C4DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F28212-0C97-41B8-B887-3989BD6EB742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F28212-0C97-41B8-B887-3989BD6EB742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F28212-0C97-41B8-B887-3989BD6EB742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F28212-0C97-41B8-B887-3989BD6EB742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D16D21-6B8B-4DEC-8024-C58FF8B8AED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D16D21-6B8B-4DEC-8024-C58FF8B8AED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D16D21-6B8B-4DEC-8024-C58FF8B8AED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D16D21-6B8B-4DEC-8024-C58FF8B8AED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7504AA7-5DC7-4871-B4C2-99906A620AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7504AA7-5DC7-4871-B4C2-99906A620AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7504AA7-5DC7-4871-B4C2-99906A620AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7504AA7-5DC7-4871-B4C2-99906A620AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27157A72-4834-4108-A534-EE5C1E1F1882}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://marcdias.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ArchitectureNetCore.CrossCutting\\ArchitectureNetCore.CrossCutting.csproj
+		SccProjectName1 = ArchitectureNetCore.CrossCutting
+		SccLocalPath1 = ArchitectureNetCore.CrossCutting
+		SccProjectUniqueName2 = ArchitectureNetCore.Data.Dapper\\ArchitectureNetCore.Data.Dapper.csproj
+		SccProjectName2 = ArchitectureNetCore.Data.Dapper
+		SccLocalPath2 = ArchitectureNetCore.Data.Dapper
+		SccProjectUniqueName3 = ArchitectureNetCore.Data.EF\\ArchitectureNetCore.Data.EF.csproj
+		SccProjectName3 = ArchitectureNetCore.Data.EF
+		SccLocalPath3 = ArchitectureNetCore.Data.EF
+		SccProjectUniqueName4 = ArchitectureNetCore.Domain\\ArchitectureNetCore.Domain.csproj
+		SccProjectName4 = ArchitectureNetCore.Domain
+		SccLocalPath4 = ArchitectureNetCore.Domain
+		SccProjectUniqueName5 = ArchitectureNetCore.Web\\ArchitectureNetCore.Web.csproj
+		SccProjectName5 = ArchitectureNetCore.Web
+		SccLocalPath5 = ArchitectureNetCore.Web
+	EndGlobalSection
+EndGlobal
